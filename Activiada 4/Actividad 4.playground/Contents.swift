@@ -26,7 +26,7 @@ enum meses:Int {
     case enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
 }
 func numeroMes (mes:String)->String{
-    return meses
+    return mes
 }
 
 let mes:meses = .marzo
@@ -58,6 +58,5 @@ case .diciembre:
     print("Diciembre es el mes numero: 12")
     
 }
-numeroMes(mes: 3)
 Suma(uno: 10.1, dos: 12.6)
 potencia(base: 5, potencia: 2)
