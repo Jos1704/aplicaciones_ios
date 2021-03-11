@@ -71,7 +71,7 @@ var ciudad:Int?
 ciudad = dias ["DF"]
 
 if let tepm2 = ciudad{
-    print("Los dias se han contado")
+    print("Los dias se han contado  ")
 }else{
     print("Sin registro de ciudad")
 }
